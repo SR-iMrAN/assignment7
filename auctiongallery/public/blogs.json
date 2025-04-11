@@ -1,4 +1,5 @@
 [
+
     {
       "id": 1,
       "title": "Vintage Leica M3 Camera",
@@ -6,7 +7,7 @@
       "currentBidPrice": 2850,
       "timeLeft": "2 Days left",
       "bidsCount": 12,
-      "image": "https://i.ibb.co/tPrf8Rn/camera.jpg"
+      "image": "https://i.ibb.co.com/yctjNwsr/Bid1-min.png"
     },
     {
       "id": 2,
@@ -15,7 +16,7 @@
       "currentBidPrice": 2850,
       "timeLeft": "2 Days left",
       "bidsCount": 8,
-      "image": "https://i.ibb.co/1LFGRXy/guitar.jpg"
+      "image": "https://i.ibb.co.com/HTjzHvth/Bid2-min.png"
     },
     {
       "id": 3,
@@ -24,7 +25,7 @@
       "currentBidPrice": 2850,
       "timeLeft": "2 Days left",
       "bidsCount": 18,
-      "image": "https://i.ibb.co/vzvJhXr/macintosh.jpg"
+      "image": "https://i.ibb.co.com/cKgwCj9Q/Bid3-min.png"
     },
     {
       "id": 4,
@@ -33,7 +34,7 @@
       "currentBidPrice": 2850,
       "timeLeft": "2 Days left",
       "bidsCount": 6,
-      "image": "https://i.ibb.co/ynqCrKD/rolex.jpg"
+      "image": "https://i.ibb.co.com/3mjNSLhb/Bid4-min.png"
     },
     {
       "id": 5,
@@ -42,7 +43,7 @@
       "currentBidPrice": 2850,
       "timeLeft": "2 Days left",
       "bidsCount": 3,
-      "image": "https://i.ibb.co/TPZ6cNm/gatsby.jpg"
+      "image": "https://i.ibb.co.com/FjFzS7v/Bid5-min.png"
     },
     {
       "id": 6,
@@ -51,7 +52,7 @@
       "currentBidPrice": 2850,
       "timeLeft": "2 Days left",
       "bidsCount": 9,
-      "image": "https://i.ibb.co/QF6wGDg/chair.jpg"
+      "image": "https://i.ibb.co.com/Tx4JgqKk/Bid6-min.png"
     },
     {
       "id": 7,
@@ -60,7 +61,7 @@
       "currentBidPrice": 2850,
       "timeLeft": "2 Days left",
       "bidsCount": 5,
-      "image": "https://i.ibb.co/KLwbNjT/banksy.jpg"
+      "image": "https://i.ibb.co.com/99BCsQP6/Bid7-min.png"
     }
   ]
   

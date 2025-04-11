@@ -1,6 +1,8 @@
 import { useEffect, useState } from "react";
 import { toast } from "react-toastify";
-
+import { CiHeart } from "react-icons/ci";
+import { BsHeartFill } from "react-icons/bs";
+import { ImCancelCircle } from "react-icons/im";
 function AuctionApp() {
   const [itemsData, setItemsData] = useState([]);
   const [favorites, setFavorites] = useState([]);
@@ -65,11 +67,15 @@ function AuctionApp() {
                     disabled={disabledHearts.includes(item.id)}
                     className={`w-9 h-9 flex items-center justify-center rounded-full transition duration-200 ${
                       disabledHearts.includes(item.id)
-                        ? "bg-red-500 text-white cursor-not-allowed"
+                        ? " text-red-600 cursor-not-allowed"
                         : "hover:bg-gray-200 text-gray-600"
                     }`}
                   >
-                    ❤️
+                    {disabledHearts.includes(item.id) ? (
+    <BsHeartFill size={24} className="text-red-600" />
+  ) : (
+    <CiHeart size={30} />
+  )}
                   </button>
                 </td>
               </tr>
@@ -113,7 +119,7 @@ function AuctionApp() {
             onClick={() => removeFavorite(item.id)}
             className="text-red-500 hover:text-red-700 text-xl"
           >
-            ❌
+            <ImCancelCircle size={25}/>
           </button>
         </li>
       ))}

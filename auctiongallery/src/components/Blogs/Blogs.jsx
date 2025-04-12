@@ -88,9 +88,9 @@ function AuctionApp() {
 
       {/* Right Side */}
       <div className="md:w-1/3 bg-white rounded-xl shadow p-6 h-fit">
-      <div className="flex items-center justify-center gap-2 mb-3">
+      <div className="flex items-center justify-center gap-2 mb-3 text-blue-500">
     <CiHeart size={30} className=" mt-1" />
-    <h2 className="text-2xl font-bold text-gray-800">Favorite Items</h2>
+    <h2 className="text-2xl font-bold ">Favorite Items</h2>
   </div>
 <hr className="text-gray-200" />
   {favorites.length === 0 ? (

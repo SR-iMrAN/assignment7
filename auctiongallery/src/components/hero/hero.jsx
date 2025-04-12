@@ -27,7 +27,7 @@ const Hero = () => {
     alt="Car lights"
     className="absolute top-0 left-0 w-full h-full object-cover z-0"
   />
-
+<div></div>
 </section>
 
   );
